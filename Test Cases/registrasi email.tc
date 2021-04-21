@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>test registrasi dengan menggunakan negative case maupun positive case
+
+cakupan pada case ini pada input field email yang salah dan benar dari user. 
+untuk handling error message nama, password, tanggal lahir dan jenis kelamin yang tidak sesuai tidak termasuk pada script ini karena object yang muncul berbeda dan perlu handling yang berbeda.</description>
+   <name>registrasi email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c584f363-1f1d-4528-85e3-75d2b37695e8</testCaseGuid>
+   <variable>
+      <defaultValue>'aisyah'</defaultValue>
+      <description></description>
+      <id>22b15465-998f-44e8-acbc-73425fc94611</id>
+      <masked>false</masked>
+      <name>nama_depan</name>
+   </variable>
+   <variable>
+      <defaultValue>'syahidah'</defaultValue>
+      <description></description>
+      <id>cc54c622-eb2e-4500-9e4a-f314c62c6747</id>
+      <masked>false</masked>
+      <name>nama_belakang</name>
+   </variable>
+   <variable>
+      <defaultValue>'084372563w'</defaultValue>
+      <description></description>
+      <id>5528cd42-b38a-4913-a1bb-ab32af827940</id>
+      <masked>false</masked>
+      <name>no_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'aisyah@gmail.co'</defaultValue>
+      <description></description>
+      <id>f9c9a242-5a28-43f7-bd10-2b0056c4b322</id>
+      <masked>false</masked>
+      <name>reinput_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'zaEcXl3Gqcom2olo2hNlUA==\r\n'</defaultValue>
+      <description></description>
+      <id>f05cdbc4-978b-4c1f-9c4d-f9fcd1b4c1ec</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'1998'</defaultValue>
+      <description></description>
+      <id>ff8e380e-8cbd-4d7f-919f-8da69193f790</id>
+      <masked>false</masked>
+      <name>tahun</name>
+   </variable>
+</TestCaseEntity>
