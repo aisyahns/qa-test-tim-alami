@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="registrasi" time="94.911" tests="5" failures="0" skips="0" errors="0">
+   <testsuite name="registrasi" tests="5" failures="0" errors="0" time="94.911" skips="0" timestamp="2021-04-21 15:15:41" hostname="ASUS - LAPTOP-PC4OTPVS" id="Test Suites/registrasi">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\qa-test-tim-alami-2\\Reports\\20210421_151533\\registrasi\\20210421_151533"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\qa-test-tim-alami-2\\Reports\\20210421_151533\\registrasi\\20210421_151533\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ASUS\\git\\qa-test-tim-alami-2\\Reports\\20210421_151533\\registrasi\\20210421_151533\\1618992956835.png, C:\\Users\\ASUS\\git\\qa-test-tim-alami-2\\Reports\\20210421_151533\\registrasi\\20210421_151533\\1618992973732.png, C:\\Users\\ASUS\\git\\qa-test-tim-alami-2\\Reports\\20210421_151533\\registrasi\\20210421_151533\\1618992990076.png, C:\\Users\\ASUS\\git\\qa-test-tim-alami-2\\Reports\\20210421_151533\\registrasi\\20210421_151533\\1618993009257.png"/>
+         <property name="hostName" value="ASUS - LAPTOP-PC4OTPVS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.1.208"/>
+         <property name="browser" value="Firefox 88.0"/>
+         <property name="hostAddress" value="172.17.128.241"/>
+         <property name="sessionId" value="cb37a118-e4fc-4d45-abd6-aca6e6b6a6d9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/registrasi email" time="21.0" classname="Test Cases/registrasi email" status="PASSED">
+         <system-out><![CDATA[2021-04-21 15:15:42 - [TEST_CASE][PASSED] - Test Cases/registrasi email: Test Cases/registrasi email
+
+2021-04-21 15:15:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-04-21 15:15:43 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-04-21 15:15:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-04-21 15:15:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-04-21 15:15:48 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.facebook.com/' successfully
+
+2021-04-21 15:15:51 - [MESSAGE][ERROR] - Unable to locate element: #katalon_only_element
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-PC4OTPVS', ip: '172.17.128.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 4348, moz:profile: C:\Users\ASUS\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 61adf7e4-4509-44a6-87d7-c9b2dbe27da3
+*** Element info: {Using=id, value=katalon_only_element}
+
+2021-04-21 15:15:51 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2021-04-21 15:15:51 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("registration page/btn_buat_akun_baru"), timeOut): Object 'Object Repository/registration page/btn_buat_akun_baru' is clickable
+
+2021-04-21 15:15:51 - [MESSAGE][PASSED] - Object 'Object Repository/registration page/btn_buat_akun_baru' is clickable
+
+2021-04-21 15:15:51 - [TEST_STEP][PASSED] - click(findTestObject("registration page/btn_buat_akun_baru")): Object: 'Object Repository/registration page/btn_buat_akun_baru' is clicked on
+
+2021-04-21 15:15:52 - [MESSAGE][PASSED] - Object: 'Object Repository/registration page/btn_buat_akun_baru' is clicked on
+
+2021-04-21 15:15:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("registration page/nama_depan"), timeOut): Object 'Object Repository/registration page/nama_depan' is visible
+
+2021-04-21 15:15:54 - [MESSAGE][PASSED] - Object 'Object Repository/registration page/nama_depan' is visible
+
+2021-04-21 15:15:54 - [TEST_STEP][PASSED] - setText(findTestObject("registration page/nama_depan"), nama_depan): Text 'aisyah' is set on object 'Object Repository/registration page/nama_depan'
+
+2021-04-21 15:15:55 - [MESSAGE][PASSED] - Text 'aisyah' is set on object 'Object Repository/registration page/nama_depan'
+
+2021-04-21 15:15:55 - [TEST_STEP][PASSED] - setText(findTestObject("registration page/nama_belakang"), nama_belakang): Text 'syahidah' is set on object 'Object Repository/registration page/nama_belakang'
+
+2021-04-21 15:15:55 - [MESSAGE][PASSED] - Text 'syahidah' is set on object 'Object Repository/registration page/nama_belakang'
+
+2021-04-21 15:15:55 - [TEST_STEP][PASSED] - setText(findTestObject("registration page/email_no"), no_email): Text 'aisyah@gmail' is set on object 'Object Repository/registration page/email_no'
+
+2021-04-21 15:15:56 - [MESSAGE][PASSED] - Text 'aisyah@gmail' is set on object 'Object Repository/registration page/email_no'
+
+2021-04-21 15:15:56 - [TEST_STEP][PASSED] - reinput = verifyElementVisible(findTestObject("registration page/reinput_email"), OPTIONAL): Object 'Object Repository/registration page/reinput_email' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/registration page/reinput_email' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:359)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at registrasi email.run(registrasi email:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1618992933805.run(TempTestSuite1618992933805.groovy:39)
+)
+
+2021-04-21 15:15:56 - [MESSAGE][WARNING] - Object 'Object Repository/registration page/reinput_email' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/registration page/reinput_email' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:359)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at registrasi email.run(registrasi email:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1618992933805.run(TempTestSuite1618992933805.groovy:39)
+)
+[[ATTACHMENT|C:\\Users\\ASUS\\git\\qa-test-tim-alami-2\\Reports\\20210421_151533\\registrasi\\20210421_151533\\1618992956835.png]]
+
+2021-04-21 15:15:56 - [TEST_STEP][PASSED] - if (reinput == true): null
+
+2021-04-21 15:15:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("registration page/password"), password): Text ****** has been set on object 'Object Repository/registration page/password'
+
+2021-04-21 15:15:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/registration page/password'
+
+2021-04-21 15:15:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("registration page/dropdown_tahun"), tahun, true): All options with value '2000' are selected in object 'Object Repository/registration page/dropdown_tahun'  using regular expression
+
+2021-04-21 15:15:59 - [MESSAGE][PASSED] - All options with value '2000' are selected in object 'Object Repository/registration page/dropdown_tahun'  using regular expression
+
+2021-04-21 15:15:59 - [TEST_STEP][PASSED] - click(findTestObject("registration page/label_perempuan")): Object: 'Object Repository/registration page/label_perempuan' is clicked on
+
+2021-04-21 15:16:00 - [MESSAGE][PASSED] - Object: 'Object Repository/registration page/label_perempuan' is clicked on
+
+2021-04-21 15:16:00 - [TEST_STEP][PASSED] - click(findTestObject("registration page/btn_daftar")): Object: 'Object Repository/registration page/btn_daftar' is clicked on
+
+2021-04-21 15:16:00 - [MESSAGE][PASSED] - Object: 'Object Repository/registration page/btn_daftar' is clicked on
+
+2021-04-21 15:16:00 - [TEST_STEP][PASSED] - text = verifyTextPresent("Harap masukkan nomor telepon atau alamat email yang valid", false, OPTIONAL): Text 'Harap masukkan nomor telepon atau alamat email yang valid' is present on page 
+
+2021-04-21 15:16:01 - [MESSAGE][PASSED] - Text 'Harap masukkan nomor telepon atau alamat email yang valid' is present on page 
+
+2021-04-21 15:16:01 - [TEST_STEP][PASSED] - if (text == true): Text 'Harap masukkan nomor telepon atau alamat email yang valid' is present on page 
+
+2021-04-21 15:16:01 - [TEST_STEP][PASSED] - verifyTextPresent("Harap masukkan nomor telepon atau alamat email yang valid", false, STOP_ON_FAILURE): Text 'Harap masukkan nomor telepon atau alamat email yang valid' is present on page 
+
+2021-04-21 15:16:02 - [MESSAGE][PASSED] - Text 'Harap masukkan nomor telepon atau alamat email yang valid' is present on page 
+
+2021-04-21 15:16:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-04-21 15:16:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/registrasi email" time="16.949" classname="Test Cases/registrasi email" status="PASSED">
+         <system-out><![CDATA[2021-04-21 15:16:03 - [TEST_CASE][PASSED] - Test Cases/registrasi email: Test Cases/registrasi email
+
+2021-04-21 15:16:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-04-21 15:16:03 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-04-21 15:16:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-04-21 15:16:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-04-21 15:16:08 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.facebook.com/' successfully
+
+2021-04-21 15:16:09 - [MESSAGE][ERROR] - Unable to locate element: #katalon_only_element
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-PC4OTPVS', ip: '172.17.128.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 20288, moz:profile: C:\Users\ASUS\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8f2a5818-ca95-49af-bf88-78d8db536c81
+*** Element info: {Using=id, value=katalon_only_element}
+
+2021-04-21 15:16:09 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2021-04-21 15:16:09 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("registration page/btn_buat_akun_baru"), timeOut): Object 'Object Repository/registration page/btn_buat_akun_baru' is clickable
+
+2021-04-21 15:16:10 - [MESSAGE][PASSED] - Object 'Object Repository/registration page/btn_buat_akun_baru' is clickable
+
+2021-04-21 15:16:10 - [TEST_STEP][PASSED] - click(findTestObject("registration page/btn_buat_akun_baru")): Object: 'Object Repository/registration page/btn_buat_akun_baru' is clicked on
+
+2021-04-21 15:16:10 - [MESSAGE][PASSED] - Object: 'Object Repository/registration page/btn_buat_akun_baru' is clicked on
+
+2021-04-21 15:16:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("registration page/nama_depan"), timeOut): Object 'Object Repository/registration page/nama_depan' is visible
+
+2021-04-21 15:16:11 - [MESSAGE][PASSED] - Object 'Object Repository/registration page/nama_depan' is visible
+
+2021-04-21 15:16:11 - [TEST_STEP][PASSED] - setText(findTestObject("registration page/nama_depan"), nama_depan): Text 'sandi' is set on object 'Object Repository/registration page/nama_depan'
+
+2021-04-21 15:16:12 - [MESSAGE][PASSED] - Text 'sandi' is set on object 'Object Repository/registration page/nama_depan'
+
+2021-04-21 15:16:12 - [TEST_STEP][PASSED] - setText(findTestObject("registration page/nama_belakang"), nama_belakang): Text 'agata' is set on object 'Object Repository/registration page/nama_belakang'
+
+2021-04-21 15:16:12 - [MESSAGE][PASSED] - Text 'agata' is set on object 'Object Repository/registration page/nama_belakang'
+
+2021-04-21 15:16:12 - [TEST_STEP][PASSED] - setText(findTestObject("registration page/email_no"), no_email): Text 'sandigata' is set on object 'Object Repository/registration page/email_no'
+
+2021-04-21 15:16:13 - [MESSAGE][PASSED] - Text 'sandigata' is set on object 'Object Repository/registration page/email_no'
+
+2021-04-21 15:16:13 - [TEST_STEP][PASSED] - reinput = verifyElementVisible(findTestObject("registration page/reinput_email"), OPTIONAL): Object 'Object Repository/registration page/reinput_email' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/registration page/reinput_email' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:359)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at registrasi email.run(registrasi email:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1618992933805.run(TempTestSuite1618992933805.groovy:39)
+)
+
+2021-04-21 15:16:13 - [MESSAGE][WARNING] - Object 'Object Repository/registration page/reinput_email' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/registration page/reinput_email' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:359)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at registrasi email.run(registrasi email:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1618992933805.run(TempTestSuite1618992933805.groovy:39)
+)
+[[ATTACHMENT|C:\\Users\\ASUS\\git\\qa-test-tim-alami-2\\Reports\\20210421_151533\\registrasi\\20210421_151533\\1618992973732.png]]
+
+2021-04-21 15:16:13 - [TEST_STEP][PASSED] - if (reinput == true): null
+
+2021-04-21 15:16:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("registration page/password"), password): Text ****** has been set on object 'Object Repository/registration page/password'
+
+2021-04-21 15:16:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/registration page/password'
+
+2021-04-21 15:16:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("registration page/dropdown_tahun"), tahun, true): All options with value '1970' are selected in object 'Object Repository/registration page/dropdown_tahun'  using regular expression
+
+2021-04-21 15:16:16 - [MESSAGE][PASSED] - All options with value '1970' are selected in object 'Object Repository/registration page/dropdown_tahun'  using regular expression
+
+2021-04-21 15:16:16 - [TEST_STEP][PASSED] - click(findTestObject("registration page/label_perempuan")): Object: 'Object Repository/registration page/label_perempuan' is clicked on
+
+2021-04-21 15:16:17 - [MESSAGE][PASSED] - Object: 'Object Repository/registration page/label_perempuan' is clicked on
+
+2021-04-21 15:16:17 - [TEST_STEP][PASSED] - click(findTestObject("registration page/btn_daftar")): Object: 'Object Repository/registration page/btn_daftar' is clicked on
+
+2021-04-21 15:16:17 - [MESSAGE][PASSED] - Object: 'Object Repository/registration page/btn_daftar' is clicked on
+
+2021-04-21 15:16:17 - [TEST_STEP][PASSED] - text = verifyTextPresent("Harap masukkan nomor telepon atau alamat email yang valid", false, OPTIONAL): Text 'Harap masukkan nomor telepon atau alamat email yang valid' is present on page 
+
+2021-04-21 15:16:18 - [MESSAGE][PASSED] - Text 'Harap masukkan nomor telepon atau alamat email yang valid' is present on page 
+
+2021-04-21 15:16:18 - [TEST_STEP][PASSED] - if (text == true): Text 'Harap masukkan nomor telepon atau alamat email yang valid' is present on page 
+
+2021-04-21 15:16:18 - [TEST_STEP][PASSED] - verifyTextPresent("Harap masukkan nomor telepon atau alamat email yang valid", false, STOP_ON_FAILURE): Text 'Harap masukkan nomor telepon atau alamat email yang valid' is present on page 
+
+2021-04-21 15:16:19 - [MESSAGE][PASSED] - Text 'Harap masukkan nomor telepon atau alamat email yang valid' is present on page 
+
+2021-04-21 15:16:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-04-21 15:16:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/registrasi email" time="16.114" classname="Test Cases/registrasi email" status="PASSED">
+         <system-out><![CDATA[2021-04-21 15:16:20 - [TEST_CASE][PASSED] - Test Cases/registrasi email: Test Cases/registrasi email
+
+2021-04-21 15:16:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-04-21 15:16:20 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-04-21 15:16:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-04-21 15:16:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-04-21 15:16:24 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.facebook.com/' successfully
+
+2021-04-21 15:16:26 - [MESSAGE][ERROR] - Unable to locate element: #katalon_only_element
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-PC4OTPVS', ip: '172.17.128.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 10080, moz:profile: C:\Users\ASUS\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 671690b2-19e2-47ee-9a70-3e84bfe20c70
+*** Element info: {Using=id, value=katalon_only_element}
+
+2021-04-21 15:16:26 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2021-04-21 15:16:26 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("registration page/btn_buat_akun_baru"), timeOut): Object 'Object Repository/registration page/btn_buat_akun_baru' is clickable
+
+2021-04-21 15:16:26 - [MESSAGE][PASSED] - Object 'Object Repository/registration page/btn_buat_akun_baru' is clickable
+
+2021-04-21 15:16:26 - [TEST_STEP][PASSED] - click(findTestObject("registration page/btn_buat_akun_baru")): Object: 'Object Repository/registration page/btn_buat_akun_baru' is clicked on
+
+2021-04-21 15:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/registration page/btn_buat_akun_baru' is clicked on
+
+2021-04-21 15:16:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("registration page/nama_depan"), timeOut): Object 'Object Repository/registration page/nama_depan' is visible
+
+2021-04-21 15:16:27 - [MESSAGE][PASSED] - Object 'Object Repository/registration page/nama_depan' is visible
+
+2021-04-21 15:16:27 - [TEST_STEP][PASSED] - setText(findTestObject("registration page/nama_depan"), nama_depan): Text 'lukmen' is set on object 'Object Repository/registration page/nama_depan'
+
+2021-04-21 15:16:28 - [MESSAGE][PASSED] - Text 'lukmen' is set on object 'Object Repository/registration page/nama_depan'
+
+2021-04-21 15:16:28 - [TEST_STEP][PASSED] - setText(findTestObject("registration page/nama_belakang"), nama_belakang): Text 'aldi' is set on object 'Object Repository/registration page/nama_belakang'
+
+2021-04-21 15:16:28 - [MESSAGE][PASSED] - Text 'aldi' is set on object 'Object Repository/registration page/nama_belakang'
+
+2021-04-21 15:16:28 - [TEST_STEP][PASSED] - setText(findTestObject("registration page/email_no"), no_email): Text '084372563' is set on object 'Object Repository/registration page/email_no'
+
+2021-04-21 15:16:29 - [MESSAGE][PASSED] - Text '084372563' is set on object 'Object Repository/registration page/email_no'
+
+2021-04-21 15:16:29 - [TEST_STEP][PASSED] - reinput = verifyElementVisible(findTestObject("registration page/reinput_email"), OPTIONAL): Object 'Object Repository/registration page/reinput_email' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/registration page/reinput_email' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:359)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at registrasi email.run(registrasi email:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1618992933805.run(TempTestSuite1618992933805.groovy:39)
+)
+
+2021-04-21 15:16:30 - [MESSAGE][WARNING] - Object 'Object Repository/registration page/reinput_email' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/registration page/reinput_email' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:359)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at registrasi email.run(registrasi email:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1618992933805.run(TempTestSuite1618992933805.groovy:39)
+)
+[[ATTACHMENT|C:\\Users\\ASUS\\git\\qa-test-tim-alami-2\\Reports\\20210421_151533\\registrasi\\20210421_151533\\1618992990076.png]]
+
+2021-04-21 15:16:30 - [TEST_STEP][PASSED] - if (reinput == true): null
+
+2021-04-21 15:16:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("registration page/password"), password): Text ****** has been set on object 'Object Repository/registration page/password'
+
+2021-04-21 15:16:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/registration page/password'
+
+2021-04-21 15:16:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("registration page/dropdown_tahun"), tahun, true): All options with value '2002' are selected in object 'Object Repository/registration page/dropdown_tahun'  using regular expression
+
+2021-04-21 15:16:32 - [MESSAGE][PASSED] - All options with value '2002' are selected in object 'Object Repository/registration page/dropdown_tahun'  using regular expression
+
+2021-04-21 15:16:32 - [TEST_STEP][PASSED] - click(findTestObject("registration page/label_perempuan")): Object: 'Object Repository/registration page/label_perempuan' is clicked on
+
+2021-04-21 15:16:33 - [MESSAGE][PASSED] - Object: 'Object Repository/registration page/label_perempuan' is clicked on
+
+2021-04-21 15:16:33 - [TEST_STEP][PASSED] - click(findTestObject("registration page/btn_daftar")): Object: 'Object Repository/registration page/btn_daftar' is clicked on
+
+2021-04-21 15:16:33 - [MESSAGE][PASSED] - Object: 'Object Repository/registration page/btn_daftar' is clicked on
+
+2021-04-21 15:16:33 - [TEST_STEP][PASSED] - text = verifyTextPresent("Harap masukkan nomor telepon atau alamat email yang valid", false, OPTIONAL): Text 'Harap masukkan nomor telepon atau alamat email yang valid' is present on page 
+
+2021-04-21 15:16:34 - [MESSAGE][PASSED] - Text 'Harap masukkan nomor telepon atau alamat email yang valid' is present on page 
+
+2021-04-21 15:16:34 - [TEST_STEP][PASSED] - if (text == true): Text 'Harap masukkan nomor telepon atau alamat email yang valid' is present on page 
+
+2021-04-21 15:16:34 - [TEST_STEP][PASSED] - verifyTextPresent("Harap masukkan nomor telepon atau alamat email yang valid", false, STOP_ON_FAILURE): Text 'Harap masukkan nomor telepon atau alamat email yang valid' is present on page 
+
+2021-04-21 15:16:35 - [MESSAGE][PASSED] - Text 'Harap masukkan nomor telepon atau alamat email yang valid' is present on page 
+
+2021-04-21 15:16:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-04-21 15:16:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/registrasi email" time="18.611" classname="Test Cases/registrasi email" status="PASSED">
+         <system-out><![CDATA[2021-04-21 15:16:36 - [TEST_CASE][PASSED] - Test Cases/registrasi email: Test Cases/registrasi email
+
+2021-04-21 15:16:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-04-21 15:16:36 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-04-21 15:16:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-04-21 15:16:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-04-21 15:16:43 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.facebook.com/' successfully
+
+2021-04-21 15:16:45 - [MESSAGE][ERROR] - Unable to locate element: #katalon_only_element
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-PC4OTPVS', ip: '172.17.128.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13448, moz:profile: C:\Users\ASUS\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de143ea0-cea1-41d2-86a0-bee9d0ca77f3
+*** Element info: {Using=id, value=katalon_only_element}
+
+2021-04-21 15:16:45 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2021-04-21 15:16:45 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("registration page/btn_buat_akun_baru"), timeOut): Object 'Object Repository/registration page/btn_buat_akun_baru' is clickable
+
+2021-04-21 15:16:45 - [MESSAGE][PASSED] - Object 'Object Repository/registration page/btn_buat_akun_baru' is clickable
+
+2021-04-21 15:16:45 - [TEST_STEP][PASSED] - click(findTestObject("registration page/btn_buat_akun_baru")): Object: 'Object Repository/registration page/btn_buat_akun_baru' is clicked on
+
+2021-04-21 15:16:46 - [MESSAGE][PASSED] - Object: 'Object Repository/registration page/btn_buat_akun_baru' is clicked on
+
+2021-04-21 15:16:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("registration page/nama_depan"), timeOut): Object 'Object Repository/registration page/nama_depan' is visible
+
+2021-04-21 15:16:46 - [MESSAGE][PASSED] - Object 'Object Repository/registration page/nama_depan' is visible
+
+2021-04-21 15:16:46 - [TEST_STEP][PASSED] - setText(findTestObject("registration page/nama_depan"), nama_depan): Text 'lukmen' is set on object 'Object Repository/registration page/nama_depan'
+
+2021-04-21 15:16:47 - [MESSAGE][PASSED] - Text 'lukmen' is set on object 'Object Repository/registration page/nama_depan'
+
+2021-04-21 15:16:47 - [TEST_STEP][PASSED] - setText(findTestObject("registration page/nama_belakang"), nama_belakang): Text 'ardya' is set on object 'Object Repository/registration page/nama_belakang'
+
+2021-04-21 15:16:48 - [MESSAGE][PASSED] - Text 'ardya' is set on object 'Object Repository/registration page/nama_belakang'
+
+2021-04-21 15:16:48 - [TEST_STEP][PASSED] - setText(findTestObject("registration page/email_no"), no_email): Text '084372563w' is set on object 'Object Repository/registration page/email_no'
+
+2021-04-21 15:16:48 - [MESSAGE][PASSED] - Text '084372563w' is set on object 'Object Repository/registration page/email_no'
+
+2021-04-21 15:16:48 - [TEST_STEP][PASSED] - reinput = verifyElementVisible(findTestObject("registration page/reinput_email"), OPTIONAL): Object 'Object Repository/registration page/reinput_email' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/registration page/reinput_email' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:359)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at registrasi email.run(registrasi email:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1618992933805.run(TempTestSuite1618992933805.groovy:39)
+)
+
+2021-04-21 15:16:49 - [MESSAGE][WARNING] - Object 'Object Repository/registration page/reinput_email' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/registration page/reinput_email' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:359)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at registrasi email.run(registrasi email:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1618992933805.run(TempTestSuite1618992933805.groovy:39)
+)
+[[ATTACHMENT|C:\\Users\\ASUS\\git\\qa-test-tim-alami-2\\Reports\\20210421_151533\\registrasi\\20210421_151533\\1618993009257.png]]
+
+2021-04-21 15:16:49 - [TEST_STEP][PASSED] - if (reinput == true): null
+
+2021-04-21 15:16:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("registration page/password"), password): Text ****** has been set on object 'Object Repository/registration page/password'
+
+2021-04-21 15:16:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/registration page/password'
+
+2021-04-21 15:16:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("registration page/dropdown_tahun"), tahun, true): All options with value '1994' are selected in object 'Object Repository/registration page/dropdown_tahun'  using regular expression
+
+2021-04-21 15:16:51 - [MESSAGE][PASSED] - All options with value '1994' are selected in object 'Object Repository/registration page/dropdown_tahun'  using regular expression
+
+2021-04-21 15:16:51 - [TEST_STEP][PASSED] - click(findTestObject("registration page/label_perempuan")): Object: 'Object Repository/registration page/label_perempuan' is clicked on
+
+2021-04-21 15:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/registration page/label_perempuan' is clicked on
+
+2021-04-21 15:16:52 - [TEST_STEP][PASSED] - click(findTestObject("registration page/btn_daftar")): Object: 'Object Repository/registration page/btn_daftar' is clicked on
+
+2021-04-21 15:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/registration page/btn_daftar' is clicked on
+
+2021-04-21 15:16:52 - [TEST_STEP][PASSED] - text = verifyTextPresent("Harap masukkan nomor telepon atau alamat email yang valid", false, OPTIONAL): Text 'Harap masukkan nomor telepon atau alamat email yang valid' is present on page 
+
+2021-04-21 15:16:53 - [MESSAGE][PASSED] - Text 'Harap masukkan nomor telepon atau alamat email yang valid' is present on page 
+
+2021-04-21 15:16:53 - [TEST_STEP][PASSED] - if (text == true): Text 'Harap masukkan nomor telepon atau alamat email yang valid' is present on page 
+
+2021-04-21 15:16:53 - [TEST_STEP][PASSED] - verifyTextPresent("Harap masukkan nomor telepon atau alamat email yang valid", false, STOP_ON_FAILURE): Text 'Harap masukkan nomor telepon atau alamat email yang valid' is present on page 
+
+2021-04-21 15:16:54 - [MESSAGE][PASSED] - Text 'Harap masukkan nomor telepon atau alamat email yang valid' is present on page 
+
+2021-04-21 15:16:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-04-21 15:16:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/registrasi email" time="20.755" classname="Test Cases/registrasi email" status="PASSED">
+         <system-out><![CDATA[2021-04-21 15:16:55 - [TEST_CASE][PASSED] - Test Cases/registrasi email: Test Cases/registrasi email
+
+2021-04-21 15:16:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-04-21 15:16:55 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-04-21 15:16:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-04-21 15:16:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-04-21 15:16:59 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.facebook.com/' successfully
+
+2021-04-21 15:17:00 - [MESSAGE][ERROR] - Unable to locate element: #katalon_only_element
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-PC4OTPVS', ip: '172.17.128.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13260, moz:profile: C:\Users\ASUS\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cb37a118-e4fc-4d45-abd6-aca6e6b6a6d9
+*** Element info: {Using=id, value=katalon_only_element}
+
+2021-04-21 15:17:00 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2021-04-21 15:17:00 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("registration page/btn_buat_akun_baru"), timeOut): Object 'Object Repository/registration page/btn_buat_akun_baru' is clickable
+
+2021-04-21 15:17:01 - [MESSAGE][PASSED] - Object 'Object Repository/registration page/btn_buat_akun_baru' is clickable
+
+2021-04-21 15:17:01 - [TEST_STEP][PASSED] - click(findTestObject("registration page/btn_buat_akun_baru")): Object: 'Object Repository/registration page/btn_buat_akun_baru' is clicked on
+
+2021-04-21 15:17:01 - [MESSAGE][PASSED] - Object: 'Object Repository/registration page/btn_buat_akun_baru' is clicked on
+
+2021-04-21 15:17:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("registration page/nama_depan"), timeOut): Object 'Object Repository/registration page/nama_depan' is visible
+
+2021-04-21 15:17:02 - [MESSAGE][PASSED] - Object 'Object Repository/registration page/nama_depan' is visible
+
+2021-04-21 15:17:02 - [TEST_STEP][PASSED] - setText(findTestObject("registration page/nama_depan"), nama_depan): Text 'aisyah' is set on object 'Object Repository/registration page/nama_depan'
+
+2021-04-21 15:17:03 - [MESSAGE][PASSED] - Text 'aisyah' is set on object 'Object Repository/registration page/nama_depan'
+
+2021-04-21 15:17:03 - [TEST_STEP][PASSED] - setText(findTestObject("registration page/nama_belakang"), nama_belakang): Text 'syahidah' is set on object 'Object Repository/registration page/nama_belakang'
+
+2021-04-21 15:17:03 - [MESSAGE][PASSED] - Text 'syahidah' is set on object 'Object Repository/registration page/nama_belakang'
+
+2021-04-21 15:17:03 - [TEST_STEP][PASSED] - setText(findTestObject("registration page/email_no"), no_email): Text 'aisyah@gmail.co' is set on object 'Object Repository/registration page/email_no'
+
+2021-04-21 15:17:04 - [MESSAGE][PASSED] - Text 'aisyah@gmail.co' is set on object 'Object Repository/registration page/email_no'
+
+2021-04-21 15:17:04 - [TEST_STEP][PASSED] - reinput = verifyElementVisible(findTestObject("registration page/reinput_email"), OPTIONAL): Object 'Object Repository/registration page/reinput_email' is visible
+
+2021-04-21 15:17:05 - [MESSAGE][PASSED] - Object 'Object Repository/registration page/reinput_email' is visible
+
+2021-04-21 15:17:05 - [TEST_STEP][PASSED] - if (reinput == true): Text 'aisyah@gmail.co' is set on object 'Object Repository/registration page/reinput_email'
+
+2021-04-21 15:17:05 - [TEST_STEP][PASSED] - setText(findTestObject("registration page/reinput_email"), reinput_email): Text 'aisyah@gmail.co' is set on object 'Object Repository/registration page/reinput_email'
+
+2021-04-21 15:17:05 - [MESSAGE][PASSED] - Text 'aisyah@gmail.co' is set on object 'Object Repository/registration page/reinput_email'
+
+2021-04-21 15:17:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("registration page/password"), password): Text ****** has been set on object 'Object Repository/registration page/password'
+
+2021-04-21 15:17:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/registration page/password'
+
+2021-04-21 15:17:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("registration page/dropdown_tahun"), tahun, true): All options with value '1998' are selected in object 'Object Repository/registration page/dropdown_tahun'  using regular expression
+
+2021-04-21 15:17:08 - [MESSAGE][PASSED] - All options with value '1998' are selected in object 'Object Repository/registration page/dropdown_tahun'  using regular expression
+
+2021-04-21 15:17:08 - [TEST_STEP][PASSED] - click(findTestObject("registration page/label_perempuan")): Object: 'Object Repository/registration page/label_perempuan' is clicked on
+
+2021-04-21 15:17:09 - [MESSAGE][PASSED] - Object: 'Object Repository/registration page/label_perempuan' is clicked on
+
+2021-04-21 15:17:09 - [TEST_STEP][PASSED] - click(findTestObject("registration page/btn_daftar")): Object: 'Object Repository/registration page/btn_daftar' is clicked on
+
+2021-04-21 15:17:09 - [MESSAGE][PASSED] - Object: 'Object Repository/registration page/btn_daftar' is clicked on
+
+2021-04-21 15:17:09 - [TEST_STEP][PASSED] - text = verifyTextPresent("Harap masukkan nomor telepon atau alamat email yang valid", false, OPTIONAL): Text 'Harap masukkan nomor telepon atau alamat email yang valid' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Harap masukkan nomor telepon atau alamat email yang valid' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1704)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at registrasi email.run(registrasi email:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1618992933805.run(TempTestSuite1618992933805.groovy:39)
+)
+
+2021-04-21 15:17:13 - [MESSAGE][WARNING] - Text 'Harap masukkan nomor telepon atau alamat email yang valid' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Harap masukkan nomor telepon atau alamat email yang valid' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1704)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at registrasi email.run(registrasi email:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1618992933805.run(TempTestSuite1618992933805.groovy:39)
+)
+
+2021-04-21 15:17:13 - [TEST_STEP][PASSED] - if (text == true): null
+
+2021-04-21 15:17:13 - [TEST_STEP][PASSED] - else: Object 'Object Repository/facebook page/header_nonaktif' is visible
+
+2021-04-21 15:17:13 - [TEST_STEP][PASSED] - nonaktif = verifyElementVisible(findTestObject("facebook page/header_nonaktif"), OPTIONAL): Object 'Object Repository/facebook page/header_nonaktif' is visible
+
+2021-04-21 15:17:14 - [MESSAGE][PASSED] - Object 'Object Repository/facebook page/header_nonaktif' is visible
+
+2021-04-21 15:17:14 - [TEST_STEP][PASSED] - if (nonaktif == true): Object 'Object Repository/facebook page/header_nonaktif' is visible
+
+2021-04-21 15:17:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("facebook page/header_nonaktif"), STOP_ON_FAILURE): Object 'Object Repository/facebook page/header_nonaktif' is visible
+
+2021-04-21 15:17:15 - [MESSAGE][PASSED] - Object 'Object Repository/facebook page/header_nonaktif' is visible
+
+2021-04-21 15:17:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-04-21 15:17:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-04-21 15:15:41 - [TEST_SUITE][INCOMPLETE] - registrasi: null]]></system-out>
+      <system-err><![CDATA[2021-04-21 15:15:41 - [TEST_SUITE][INCOMPLETE] - registrasi: null]]></system-err>
+   </testsuite>
+</testsuites>

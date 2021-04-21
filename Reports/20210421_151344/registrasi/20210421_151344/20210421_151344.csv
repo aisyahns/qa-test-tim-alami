@@ -1,0 +1,99 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+registrasi,Chrome 89.0.4389.128,"test suite dengan data test yang berbeda yang didapat dari Data Files 	user
+terdiri dari 5 test case dengan 4 test case negative dan 1 test case positive ketika user memasukkan data email yang sesuai",,2021-04-21 15:13:53,2021-04-21 15:15:21,1m - 27.211s,PASSED
+,,,,,,,
+Test Cases/registrasi email,Chrome 89.0.4389.128,,,2021-04-21 15:13:57,2021-04-21 15:14:17,20.065s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.128,,,2021-04-21 15:13:58,2021-04-21 15:14:01,2.779s,PASSED
+navigateToUrl(url),Chrome 89.0.4389.128,,,2021-04-21 15:14:01,2021-04-21 15:14:03,2.729s,PASSED
+"waitForElementClickable(findTestObject(""registration page/btn_buat_akun_baru""), timeOut)",Chrome 89.0.4389.128,,,2021-04-21 15:14:03,2021-04-21 15:14:04,0.568s,PASSED
+"click(findTestObject(""registration page/btn_buat_akun_baru""))",Chrome 89.0.4389.128,,,2021-04-21 15:14:04,2021-04-21 15:14:04,0.372s,PASSED
+"waitForElementVisible(findTestObject(""registration page/nama_depan""), timeOut)",Chrome 89.0.4389.128,,,2021-04-21 15:14:04,2021-04-21 15:14:05,0.985s,PASSED
+"setText(findTestObject(""registration page/nama_depan""), nama_depan)",Chrome 89.0.4389.128,,,2021-04-21 15:14:05,2021-04-21 15:14:06,0.683s,PASSED
+"setText(findTestObject(""registration page/nama_belakang""), nama_belakang)",Chrome 89.0.4389.128,,,2021-04-21 15:14:06,2021-04-21 15:14:07,0.692s,PASSED
+"setText(findTestObject(""registration page/email_no""), no_email)",Chrome 89.0.4389.128,,,2021-04-21 15:14:07,2021-04-21 15:14:08,0.921s,PASSED
+"reinput = verifyElementVisible(findTestObject(""registration page/reinput_email""), OPTIONAL)",Chrome 89.0.4389.128,,,2021-04-21 15:14:08,2021-04-21 15:14:08,0.886s,PASSED
+if (reinput == true),Chrome 89.0.4389.128,,,2021-04-21 15:14:08,2021-04-21 15:14:08,0.002s,PASSED
+"setEncryptedText(findTestObject(""registration page/password""), password)",Chrome 89.0.4389.128,,,2021-04-21 15:14:08,2021-04-21 15:14:09,0.882s,PASSED
+"selectOptionByValue(findTestObject(""registration page/dropdown_tahun""), tahun, true)",Chrome 89.0.4389.128,,,2021-04-21 15:14:09,2021-04-21 15:14:13,3.502s,PASSED
+"click(findTestObject(""registration page/label_perempuan""))",Chrome 89.0.4389.128,,,2021-04-21 15:14:13,2021-04-21 15:14:13,0.485s,PASSED
+"click(findTestObject(""registration page/btn_daftar""))",Chrome 89.0.4389.128,,,2021-04-21 15:14:13,2021-04-21 15:14:14,0.547s,PASSED
+"text = verifyTextPresent(""Harap masukkan nomor telepon atau alamat email yang valid"", false, OPTIONAL)",Chrome 89.0.4389.128,,,2021-04-21 15:14:14,2021-04-21 15:14:15,1.335s,PASSED
+if (text == true),Chrome 89.0.4389.128,,,2021-04-21 15:14:15,2021-04-21 15:14:16,0.730s,PASSED
+closeBrowser(),Chrome 89.0.4389.128,,,2021-04-21 15:14:16,2021-04-21 15:14:17,0.681s,PASSED
+,,,,,,,
+Test Cases/registrasi email,Chrome 89.0.4389.128,,,2021-04-21 15:14:17,2021-04-21 15:14:34,17.245s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.128,,,2021-04-21 15:14:17,2021-04-21 15:14:18,1.605s,PASSED
+navigateToUrl(url),Chrome 89.0.4389.128,,,2021-04-21 15:14:18,2021-04-21 15:14:24,5.086s,PASSED
+"waitForElementClickable(findTestObject(""registration page/btn_buat_akun_baru""), timeOut)",Chrome 89.0.4389.128,,,2021-04-21 15:14:24,2021-04-21 15:14:24,0.461s,PASSED
+"click(findTestObject(""registration page/btn_buat_akun_baru""))",Chrome 89.0.4389.128,,,2021-04-21 15:14:24,2021-04-21 15:14:24,0.453s,PASSED
+"waitForElementVisible(findTestObject(""registration page/nama_depan""), timeOut)",Chrome 89.0.4389.128,,,2021-04-21 15:14:24,2021-04-21 15:14:26,1.699s,PASSED
+"setText(findTestObject(""registration page/nama_depan""), nama_depan)",Chrome 89.0.4389.128,,,2021-04-21 15:14:26,2021-04-21 15:14:27,0.619s,PASSED
+"setText(findTestObject(""registration page/nama_belakang""), nama_belakang)",Chrome 89.0.4389.128,,,2021-04-21 15:14:27,2021-04-21 15:14:27,0.601s,PASSED
+"setText(findTestObject(""registration page/email_no""), no_email)",Chrome 89.0.4389.128,,,2021-04-21 15:14:27,2021-04-21 15:14:28,0.715s,PASSED
+"reinput = verifyElementVisible(findTestObject(""registration page/reinput_email""), OPTIONAL)",Chrome 89.0.4389.128,,,2021-04-21 15:14:28,2021-04-21 15:14:29,0.590s,PASSED
+if (reinput == true),Chrome 89.0.4389.128,,,2021-04-21 15:14:29,2021-04-21 15:14:29,0.000s,PASSED
+"setEncryptedText(findTestObject(""registration page/password""), password)",Chrome 89.0.4389.128,,,2021-04-21 15:14:29,2021-04-21 15:14:29,0.399s,PASSED
+"selectOptionByValue(findTestObject(""registration page/dropdown_tahun""), tahun, true)",Chrome 89.0.4389.128,,,2021-04-21 15:14:29,2021-04-21 15:14:31,2.284s,PASSED
+"click(findTestObject(""registration page/label_perempuan""))",Chrome 89.0.4389.128,,,2021-04-21 15:14:31,2021-04-21 15:14:32,0.365s,PASSED
+"click(findTestObject(""registration page/btn_daftar""))",Chrome 89.0.4389.128,,,2021-04-21 15:14:32,2021-04-21 15:14:32,0.356s,PASSED
+"text = verifyTextPresent(""Harap masukkan nomor telepon atau alamat email yang valid"", false, OPTIONAL)",Chrome 89.0.4389.128,,,2021-04-21 15:14:32,2021-04-21 15:14:33,0.886s,PASSED
+if (text == true),Chrome 89.0.4389.128,,,2021-04-21 15:14:33,2021-04-21 15:14:33,0.370s,PASSED
+closeBrowser(),Chrome 89.0.4389.128,,,2021-04-21 15:14:33,2021-04-21 15:14:34,0.658s,PASSED
+,,,,,,,
+Test Cases/registrasi email,Chrome 89.0.4389.128,,,2021-04-21 15:14:34,2021-04-21 15:14:48,13.998s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.128,,,2021-04-21 15:14:34,2021-04-21 15:14:35,1.199s,PASSED
+navigateToUrl(url),Chrome 89.0.4389.128,,,2021-04-21 15:14:35,2021-04-21 15:14:38,2.776s,PASSED
+"waitForElementClickable(findTestObject(""registration page/btn_buat_akun_baru""), timeOut)",Chrome 89.0.4389.128,,,2021-04-21 15:14:38,2021-04-21 15:14:39,0.530s,PASSED
+"click(findTestObject(""registration page/btn_buat_akun_baru""))",Chrome 89.0.4389.128,,,2021-04-21 15:14:39,2021-04-21 15:14:39,0.339s,PASSED
+"waitForElementVisible(findTestObject(""registration page/nama_depan""), timeOut)",Chrome 89.0.4389.128,,,2021-04-21 15:14:39,2021-04-21 15:14:40,1.381s,PASSED
+"setText(findTestObject(""registration page/nama_depan""), nama_depan)",Chrome 89.0.4389.128,,,2021-04-21 15:14:40,2021-04-21 15:14:41,0.634s,PASSED
+"setText(findTestObject(""registration page/nama_belakang""), nama_belakang)",Chrome 89.0.4389.128,,,2021-04-21 15:14:41,2021-04-21 15:14:42,0.717s,PASSED
+"setText(findTestObject(""registration page/email_no""), no_email)",Chrome 89.0.4389.128,,,2021-04-21 15:14:42,2021-04-21 15:14:42,0.844s,PASSED
+"reinput = verifyElementVisible(findTestObject(""registration page/reinput_email""), OPTIONAL)",Chrome 89.0.4389.128,,,2021-04-21 15:14:42,2021-04-21 15:14:43,0.588s,PASSED
+if (reinput == true),Chrome 89.0.4389.128,,,2021-04-21 15:14:43,2021-04-21 15:14:43,0.000s,PASSED
+"setEncryptedText(findTestObject(""registration page/password""), password)",Chrome 89.0.4389.128,,,2021-04-21 15:14:43,2021-04-21 15:14:43,0.379s,PASSED
+"selectOptionByValue(findTestObject(""registration page/dropdown_tahun""), tahun, true)",Chrome 89.0.4389.128,,,2021-04-21 15:14:43,2021-04-21 15:14:45,1.972s,PASSED
+"click(findTestObject(""registration page/label_perempuan""))",Chrome 89.0.4389.128,,,2021-04-21 15:14:45,2021-04-21 15:14:46,0.344s,PASSED
+"click(findTestObject(""registration page/btn_daftar""))",Chrome 89.0.4389.128,,,2021-04-21 15:14:46,2021-04-21 15:14:46,0.365s,PASSED
+"text = verifyTextPresent(""Harap masukkan nomor telepon atau alamat email yang valid"", false, OPTIONAL)",Chrome 89.0.4389.128,,,2021-04-21 15:14:46,2021-04-21 15:14:47,0.878s,PASSED
+if (text == true),Chrome 89.0.4389.128,,,2021-04-21 15:14:47,2021-04-21 15:14:47,0.357s,PASSED
+closeBrowser(),Chrome 89.0.4389.128,,,2021-04-21 15:14:47,2021-04-21 15:14:48,0.670s,PASSED
+,,,,,,,
+Test Cases/registrasi email,Chrome 89.0.4389.128,,,2021-04-21 15:14:48,2021-04-21 15:15:01,13.107s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.128,,,2021-04-21 15:14:48,2021-04-21 15:14:49,1.148s,PASSED
+navigateToUrl(url),Chrome 89.0.4389.128,,,2021-04-21 15:14:49,2021-04-21 15:14:52,2.431s,PASSED
+"waitForElementClickable(findTestObject(""registration page/btn_buat_akun_baru""), timeOut)",Chrome 89.0.4389.128,,,2021-04-21 15:14:52,2021-04-21 15:14:52,0.536s,PASSED
+"click(findTestObject(""registration page/btn_buat_akun_baru""))",Chrome 89.0.4389.128,,,2021-04-21 15:14:52,2021-04-21 15:14:53,0.354s,PASSED
+"waitForElementVisible(findTestObject(""registration page/nama_depan""), timeOut)",Chrome 89.0.4389.128,,,2021-04-21 15:14:53,2021-04-21 15:14:54,0.956s,PASSED
+"setText(findTestObject(""registration page/nama_depan""), nama_depan)",Chrome 89.0.4389.128,,,2021-04-21 15:14:54,2021-04-21 15:14:54,0.615s,PASSED
+"setText(findTestObject(""registration page/nama_belakang""), nama_belakang)",Chrome 89.0.4389.128,,,2021-04-21 15:14:54,2021-04-21 15:14:55,0.757s,PASSED
+"setText(findTestObject(""registration page/email_no""), no_email)",Chrome 89.0.4389.128,,,2021-04-21 15:14:55,2021-04-21 15:14:56,0.818s,PASSED
+"reinput = verifyElementVisible(findTestObject(""registration page/reinput_email""), OPTIONAL)",Chrome 89.0.4389.128,,,2021-04-21 15:14:56,2021-04-21 15:14:56,0.565s,PASSED
+if (reinput == true),Chrome 89.0.4389.128,,,2021-04-21 15:14:56,2021-04-21 15:14:56,0.000s,PASSED
+"setEncryptedText(findTestObject(""registration page/password""), password)",Chrome 89.0.4389.128,,,2021-04-21 15:14:56,2021-04-21 15:14:57,0.390s,PASSED
+"selectOptionByValue(findTestObject(""registration page/dropdown_tahun""), tahun, true)",Chrome 89.0.4389.128,,,2021-04-21 15:14:57,2021-04-21 15:14:59,1.941s,PASSED
+"click(findTestObject(""registration page/label_perempuan""))",Chrome 89.0.4389.128,,,2021-04-21 15:14:59,2021-04-21 15:14:59,0.367s,PASSED
+"click(findTestObject(""registration page/btn_daftar""))",Chrome 89.0.4389.128,,,2021-04-21 15:14:59,2021-04-21 15:14:59,0.341s,PASSED
+"text = verifyTextPresent(""Harap masukkan nomor telepon atau alamat email yang valid"", false, OPTIONAL)",Chrome 89.0.4389.128,,,2021-04-21 15:14:59,2021-04-21 15:15:00,0.904s,PASSED
+if (text == true),Chrome 89.0.4389.128,,,2021-04-21 15:15:00,2021-04-21 15:15:01,0.345s,PASSED
+closeBrowser(),Chrome 89.0.4389.128,,,2021-04-21 15:15:01,2021-04-21 15:15:01,0.623s,PASSED
+,,,,,,,
+Test Cases/registrasi email,Chrome 89.0.4389.128,,,2021-04-21 15:15:01,2021-04-21 15:15:21,19.479s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.128,,,2021-04-21 15:15:01,2021-04-21 15:15:02,1.199s,PASSED
+navigateToUrl(url),Chrome 89.0.4389.128,,,2021-04-21 15:15:02,2021-04-21 15:15:05,2.666s,PASSED
+"waitForElementClickable(findTestObject(""registration page/btn_buat_akun_baru""), timeOut)",Chrome 89.0.4389.128,,,2021-04-21 15:15:05,2021-04-21 15:15:06,0.525s,PASSED
+"click(findTestObject(""registration page/btn_buat_akun_baru""))",Chrome 89.0.4389.128,,,2021-04-21 15:15:06,2021-04-21 15:15:06,0.346s,PASSED
+"waitForElementVisible(findTestObject(""registration page/nama_depan""), timeOut)",Chrome 89.0.4389.128,,,2021-04-21 15:15:06,2021-04-21 15:15:08,1.565s,PASSED
+"setText(findTestObject(""registration page/nama_depan""), nama_depan)",Chrome 89.0.4389.128,,,2021-04-21 15:15:08,2021-04-21 15:15:08,0.604s,PASSED
+"setText(findTestObject(""registration page/nama_belakang""), nama_belakang)",Chrome 89.0.4389.128,,,2021-04-21 15:15:08,2021-04-21 15:15:09,0.642s,PASSED
+"setText(findTestObject(""registration page/email_no""), no_email)",Chrome 89.0.4389.128,,,2021-04-21 15:15:09,2021-04-21 15:15:10,0.774s,PASSED
+"reinput = verifyElementVisible(findTestObject(""registration page/reinput_email""), OPTIONAL)",Chrome 89.0.4389.128,,,2021-04-21 15:15:10,2021-04-21 15:15:10,0.311s,PASSED
+if (reinput == true),Chrome 89.0.4389.128,,,2021-04-21 15:15:10,2021-04-21 15:15:10,0.615s,PASSED
+"setEncryptedText(findTestObject(""registration page/password""), password)",Chrome 89.0.4389.128,,,2021-04-21 15:15:10,2021-04-21 15:15:11,0.452s,PASSED
+"selectOptionByValue(findTestObject(""registration page/dropdown_tahun""), tahun, true)",Chrome 89.0.4389.128,,,2021-04-21 15:15:11,2021-04-21 15:15:13,1.931s,PASSED
+"click(findTestObject(""registration page/label_perempuan""))",Chrome 89.0.4389.128,,,2021-04-21 15:15:13,2021-04-21 15:15:13,0.356s,PASSED
+"click(findTestObject(""registration page/btn_daftar""))",Chrome 89.0.4389.128,,,2021-04-21 15:15:13,2021-04-21 15:15:14,0.333s,PASSED
+"text = verifyTextPresent(""Harap masukkan nomor telepon atau alamat email yang valid"", false, OPTIONAL)",Chrome 89.0.4389.128,,,2021-04-21 15:15:14,2021-04-21 15:15:19,5.594s,PASSED
+if (text == true),Chrome 89.0.4389.128,,,2021-04-21 15:15:19,2021-04-21 15:15:19,0.000s,PASSED
+else,Chrome 89.0.4389.128,,,2021-04-21 15:15:19,2021-04-21 15:15:20,0.865s,PASSED
+closeBrowser(),Chrome 89.0.4389.128,,,2021-04-21 15:15:20,2021-04-21 15:15:21,0.691s,PASSED

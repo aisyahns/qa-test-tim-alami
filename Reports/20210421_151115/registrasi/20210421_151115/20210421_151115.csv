@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+registrasi,Chrome 89.0.4389.128,"test suite dengan data test yang berbeda yang didapat dari Data Files 	user
+terdiri dari 5 test case dengan 4 test case negative dan 1 test case positive ketika user memasukkan data email yang sesuai",,2021-04-21 15:11:25,2021-04-21 15:11:41,16.497s,ERROR
+,,,,,,,
+Test Cases/registrasi email,Chrome 89.0.4389.128,,,2021-04-21 15:11:27,2021-04-21 15:11:31,3.735s,ERROR
+"openBrowser("""")",Chrome 89.0.4389.128,,,2021-04-21 15:11:28,2021-04-21 15:11:31,2.894s,PASSED
+navigateToUrl(url),Chrome 89.0.4389.128,,,2021-04-21 15:11:31,2021-04-21 15:11:31,0.016s,PASSED
+,,,,,,,
+Test Cases/registrasi email,Chrome 89.0.4389.128,,,2021-04-21 15:11:31,2021-04-21 15:11:34,2.373s,ERROR
+"openBrowser("""")",Chrome 89.0.4389.128,,,2021-04-21 15:11:31,2021-04-21 15:11:34,2.261s,PASSED
+navigateToUrl(url),Chrome 89.0.4389.128,,,2021-04-21 15:11:34,2021-04-21 15:11:34,0.000s,PASSED
+,,,,,,,
+Test Cases/registrasi email,Chrome 89.0.4389.128,,,2021-04-21 15:11:34,2021-04-21 15:11:36,2.474s,ERROR
+"openBrowser("""")",Chrome 89.0.4389.128,,,2021-04-21 15:11:34,2021-04-21 15:11:36,2.435s,PASSED
+navigateToUrl(url),Chrome 89.0.4389.128,,,2021-04-21 15:11:36,2021-04-21 15:11:36,0.001s,PASSED
+,,,,,,,
+Test Cases/registrasi email,Chrome 89.0.4389.128,,,2021-04-21 15:11:36,2021-04-21 15:11:39,2.348s,ERROR
+"openBrowser("""")",Chrome 89.0.4389.128,,,2021-04-21 15:11:36,2021-04-21 15:11:39,2.324s,PASSED
+navigateToUrl(url),Chrome 89.0.4389.128,,,2021-04-21 15:11:39,2021-04-21 15:11:39,0.000s,PASSED
+,,,,,,,
+Test Cases/registrasi email,Chrome 89.0.4389.128,,,2021-04-21 15:11:39,2021-04-21 15:11:41,2.408s,ERROR
+"openBrowser("""")",Chrome 89.0.4389.128,,,2021-04-21 15:11:39,2021-04-21 15:11:41,2.375s,PASSED
+navigateToUrl(url),Chrome 89.0.4389.128,,,2021-04-21 15:11:41,2021-04-21 15:11:41,0.000s,PASSED
